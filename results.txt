@@ -1,0 +1,16 @@
+Resources are 5000 meters away
+Hero has 1000 hp
+Hero attack is 10
+Bug is Enemy
+Lion is Enemy
+Zombie is Enemy
+Bug has 50 hp
+Bug attack is 2
+Lion has 100 hp
+Lion attack is 15
+Zombie has 300 hp
+Zombie attack is 7
+Zombie is Character. has hp 300 attack point 7 location 2009 meter.
+Bug is Character. has hp 50 attack point 10 location 2589 meter.
+myHero vs Zombie battle and myHero won. 790 health left.
+myHero vs Bug battle and myHero died at 2589 meters.
