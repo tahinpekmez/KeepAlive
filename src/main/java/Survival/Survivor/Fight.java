@@ -18,25 +18,6 @@ public class Fight {
     Results results = new Results();
 
 
-
-    public void getInfo() {
-        results.openFile();
-        String inputInfo = propFileReader.getProperty("resources") + "\n"
-                + propFileReader.getProperty("heroHp") + "\n"
-                + propFileReader.getProperty("heroAttack") + "\n"
-                + propFileReader.getProperty("bug") + "\n"
-                + propFileReader.getProperty("lion") + "\n"
-                + propFileReader.getProperty("zombie") + "\n"
-                + propFileReader.getProperty("bugHp") + "\n"
-                + propFileReader.getProperty("bugAttack") + "\n"
-                + propFileReader.getProperty("lionHp") + "\n"
-                + propFileReader.getProperty("lionAttack") + "\n"
-                + propFileReader.getProperty("zombieHp") + "\n"
-                + propFileReader.getProperty("zombieAttack") + "\n";
-        results.addRecors(inputInfo);
-
-    }
-
     public CommonMethods[] randomEnemies() {
 
         int totalEnemy = (int) (Math.random() * 3);
@@ -123,10 +104,7 @@ public class Fight {
     }
 
     public Hero myHero() {
-        //This method creates our hero
-
-        Hero hero = new Hero("myHero", 1000);
-        return hero;
+        return new Hero("myHero", 1000);
     }
 
 }
